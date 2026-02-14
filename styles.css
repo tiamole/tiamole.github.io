@@ -1362,9 +1362,16 @@ img {
     transition: var(--transition);
 }
 
+a.media-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
 .media-card:hover {
     box-shadow: var(--card-shadow-hover);
     transform: translateY(-4px);
+    border-color: var(--accent);
 }
 
 .media-source {
